@@ -10,12 +10,13 @@ import About from "./Routing/About";
 import Projects from "./Routing/Projects";
 import One from "./tutor/One";
 import Two from "./tutor/Two";
+import { Counter } from "./redux/Counter";
 
 function App() {
   return (
     <div className="App">
       {/* <Pricing /> */}
-      <Animation />
+      {/* <Animation /> */}
       {/* <Data /> */}
       {/* <BrowserRouter>
         <Navbar />
@@ -25,8 +26,9 @@ function App() {
           <Route path="/Projects" element={<Projects />} />
         </Routes>
       </BrowserRouter> */}
-      {/* <One /> */}
-      <Two />
+      {/* <One />
+      <Two /> */}
+      <Counter />
     </div>
   );
 }
