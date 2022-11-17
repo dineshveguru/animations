@@ -1,0 +1,12 @@
+.boxes{
+    margin: 10px;
+    background-color: aqua;
+    height: 150px;
+    width: 100px;
+    transition: 0.5s all;
+}
+
+/* .grids{
+    max-width: 50%;
+    margin: auto;
+} */
