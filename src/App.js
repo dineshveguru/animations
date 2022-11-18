@@ -12,6 +12,8 @@ import One from "./tutor/One";
 import Two from "./tutor/Two";
 import { Counter } from "./redux/Counter";
 import Post from "./tutor/Post";
+import Test from "./tutor/Test";
+import Styles from "./tutor/Styles";
 
 function App() {
   return (
@@ -30,7 +32,9 @@ function App() {
       {/* <One />
       <Two /> */}
       {/* <Counter /> */}
-      <Post />
+      {/* <Post /> */}
+      <Test />
+      <Styles />
     </div>
   );
 }
