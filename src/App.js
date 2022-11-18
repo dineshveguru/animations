@@ -11,6 +11,7 @@ import Projects from "./Routing/Projects";
 import One from "./tutor/One";
 import Two from "./tutor/Two";
 import { Counter } from "./redux/Counter";
+import Post from "./tutor/Post";
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
       </BrowserRouter> */}
       {/* <One />
       <Two /> */}
-      <Counter />
+      {/* <Counter /> */}
+      <Post />
     </div>
   );
 }
